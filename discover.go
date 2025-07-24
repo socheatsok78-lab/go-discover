@@ -23,6 +23,7 @@ import (
 	"github.com/hashicorp/go-discover/provider/tencentcloud"
 	"github.com/hashicorp/go-discover/provider/triton"
 	"github.com/hashicorp/go-discover/provider/vsphere"
+	netaddrs "github.com/socheatsok78/go-discover-netaddrs"
 )
 
 // Provider has lookup functions for meta data in a
@@ -59,6 +60,9 @@ var Providers = map[string]Provider{
 	"triton":       &triton.Provider{},
 	"vsphere":      &vsphere.Provider{},
 	"packet":       &packet.Provider{},
+
+	// Custom providers
+	"netaddrs": &netaddrs.Provider{},
 }
 
 // Discover looks up metadata in different cloud environments.

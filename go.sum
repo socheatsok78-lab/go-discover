@@ -303,6 +303,8 @@ github.com/socheatsok78/go-discover-netaddrs v0.0.0-20250724081121-b3b78a1e290e 
 github.com/socheatsok78/go-discover-netaddrs v0.0.0-20250724081121-b3b78a1e290e/go.mod h1:N44S5PKI8WO3sZ7QIBthDLsZVUwVBf0khfLMJuwkdr8=
 github.com/socheatsok78/go-discover-netaddrs v0.0.0-20250724090657-f27e3c52de20 h1:Ko169pMzn/wfksO7MLjG4NSWH20UCuVVCllZ0wsuSdc=
 github.com/socheatsok78/go-discover-netaddrs v0.0.0-20250724090657-f27e3c52de20/go.mod h1:N44S5PKI8WO3sZ7QIBthDLsZVUwVBf0khfLMJuwkdr8=
+github.com/socheatsok78/go-discover-netaddrs v0.0.0-20250725034715-7ae4939b95d4 h1:A7kir8dhcyUxXPnTEEBgsX1xIuYgmZ4euAEhVKJYRb8=
+github.com/socheatsok78/go-discover-netaddrs v0.0.0-20250725034715-7ae4939b95d4/go.mod h1:7G2mQj/4PXsDnI6RFDyFEkAEYu+lEPlOuHrI3o/j+Vs=
 github.com/softlayer/softlayer-go v0.0.0-20180806151055-260589d94c7d h1:bVQRCxQvfjNUeRqaY/uT0tFuvuFY0ulgnczuR684Xic=
 github.com/softlayer/softlayer-go v0.0.0-20180806151055-260589d94c7d/go.mod h1:Cw4GTlQccdRGSEf6KiMju767x0NEHE0YIVPJSaXjlsw=
 github.com/spf13/afero v1.2.2/go.mod h1:9ZxEEn6pIJ8Rxe320qSDBk6AsU0r9pR7Q4OcevTdifk=

@@ -17,7 +17,7 @@ require (
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/nicolai86/scaleway-sdk v1.10.2-0.20180628010248-798f60e20bb2
 	github.com/packethost/packngo v0.1.1-0.20180711074735-b9cb5096f54c
-	github.com/socheatsok78/go-discover-netaddrs v0.0.0-20250724090657-f27e3c52de20
+	github.com/socheatsok78/go-discover-netaddrs v0.0.0-20250725034715-7ae4939b95d4
 	github.com/softlayer/softlayer-go v0.0.0-20180806151055-260589d94c7d
 	github.com/stretchr/testify v1.9.0
 	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common v1.0.480
@@ -123,4 +123,4 @@ require (
 	sigs.k8s.io/yaml v1.2.0 // indirect
 )
 
-go 1.23.0
+go 1.23.11

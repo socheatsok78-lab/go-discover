@@ -1,3 +1,6 @@
+// Copyright IBM Corp. 2017, 2025
+// SPDX-License-Identifier: MPL-2.0
+
 // Package aws provides node discovery for Joyent Triton.
 package triton
 
@@ -28,7 +31,7 @@ func (p *Provider) Help() string {
 
 func (p *Provider) Addrs(args map[string]string, l *log.Logger) ([]string, error) {
 	if args["provider"] != "triton" {
-		return nil, fmt.Errorf("discover-triton: invalid provider " + args["provider"])
+		return nil, fmt.Errorf("discover-triton: invalid provider %s", args["provider"])
 	}
 
 	if l == nil {

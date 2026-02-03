@@ -1,3 +1,6 @@
+// Copyright IBM Corp. 2017, 2025
+// SPDX-License-Identifier: MPL-2.0
+
 // Package linode provides node discovery for Linode.
 package linode
 
@@ -42,7 +45,7 @@ func (p *Provider) Help() string {
 
 func (p *Provider) Addrs(args map[string]string, l *log.Logger) ([]string, error) {
 	if args["provider"] != "linode" {
-		return nil, fmt.Errorf("discover-linode: invalid provider " + args["provider"])
+		return nil, fmt.Errorf("discover-linode: invalid provider %s", args["provider"])
 	}
 
 	if l == nil {

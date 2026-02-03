@@ -1,3 +1,6 @@
+// Copyright IBM Corp. 2017, 2025
+// SPDX-License-Identifier: MPL-2.0
+
 // Package discover provides functions to get metadata for different
 // cloud environments.
 package discover
@@ -177,7 +180,7 @@ func (d *Discover) Addrs(cfg string, l *log.Logger) ([]string, error) {
 
 	p := providers[name]
 	if p == nil {
-		return nil, fmt.Errorf("discover: unknown provider " + name)
+		return nil, fmt.Errorf("discover: unknown provider %s", name)
 	}
 	l.Printf("[DEBUG] discover: Using provider %q", name)
 
